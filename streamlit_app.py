@@ -42,11 +42,11 @@ except URLError as e:
 streamlit.write('The user entered ', fruit_choice)
 
 
-streamlit.stop()
+
 streamlit.text(fruityvice_response.json())
 
 
-streamlit.stop()
+
 # Normalizes the data into a table
 
 # Turned into a Panda Dataframe
